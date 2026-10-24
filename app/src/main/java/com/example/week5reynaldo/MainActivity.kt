@@ -20,9 +20,8 @@ class MainActivity : ComponentActivity() {
         setContent {
             Week5ReynaldoTheme {
                 Surface(modifier = Modifier.fillMaxSize()) {
-                    // Gunakan ExpenseScreen() untuk Soal 1, atau QuizPageScreen() untuk Soal 2
-                    ExpenseScreen()
-                    // QuizPageScreen()
+                    //ExpenseScreen()
+                    QuizPageScreen()
                 }
             }
         }
